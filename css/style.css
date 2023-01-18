@@ -20,6 +20,7 @@ header ul {
 }
 ul {
   list-style-type: none;
+  padding: 0%;
 }
 
 li {
@@ -35,6 +36,8 @@ button {
   height: 50px;
   width: 50px;
   font-weight: bolder;
+  background-color: rgb(187, 56, 187);
+  color: rgb(228, 163, 90);
 }
 
 footer {
@@ -59,11 +62,24 @@ footer {
   flex-direction: column;
   background-color: rgb(232, 188, 137);
 }
+
+.list ul li {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.list input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
 .line {
   padding: 1% 0%;
   border-bottom: 2px solid purple;
   display: block;
 }
 .total {
-  align-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
